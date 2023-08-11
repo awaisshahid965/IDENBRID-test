@@ -1,0 +1,40 @@
+$form-width: 1380px;
+
+.product_form {
+    max-width: $form-width;
+    overflow-x: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5rem 3rem;
+    border-radius: 4px;
+    box-shadow: 0 5px 1rem rgba(0, 0, 0, .08);
+
+
+    &__swatchs {
+        display: flex;
+        gap: 1rem;
+        padding: 1.25rem 1rem;
+        width: 1270px;
+        align-items: flex-end;
+        margin: 2rem 0;
+        background-color: #f8f8f8;
+    }
+
+    &__swatch {
+        &:first-child {
+            flex: 1 0 140px;
+
+            input {
+                width: 140px;
+            }
+        }
+
+        &:not(:first-child) {
+            flex: 1 0 auto;
+        }
+
+        &--delete {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.button {
+    padding: 1.15rem 2.5rem;
+    border: 1px solid #262626;
+    transition: 0.35s background-color, 0.35s color;
+    display: inline-flex;
+    gap: 5px;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: #262626;
+        color: white
+    }
+}

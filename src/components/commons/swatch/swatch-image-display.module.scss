@@ -1,0 +1,32 @@
+.swatch {
+    margin-bottom: 4rem;
+
+    h2 {
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+    
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        gap: 2rem;
+    }
+
+    &__color-card {
+        padding: 3rem 3rem 1rem;
+        border-radius: 7px;
+        box-shadow: 5px 5px 1rem rgba(0, 0, 0, .15);
+        background-color: #fff;
+        cursor: pointer;
+
+        h3 {
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        img {
+            height: 100px;
+            width: 100%;
+        }
+    }
+}
